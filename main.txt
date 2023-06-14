@@ -1,0 +1,14 @@
+import pyautogui as vj
+#res=vj.locateOnScreen("camera.png")
+#print(res)
+for i in range(50):
+    vj.click(x=1495,y=840,clicks=1,interval=0.1,button='left')
+    vj.click(x=1550,y=827,clicks=1,interval=0.1,button='left')
+    vj.click(x=1585,y=295,clicks=1,interval=0.1,button='left')
+    vj.click(x=1371,y=369,clicks=1,interval=0.1,button='left')
+    vj.click(x=1363,y=430,clicks=1,interval=0.1,button='left')
+    vj.click(x=1365,y=533,clicks=1,interval=0.1,button='left')
+    vj.click(x=1371,y=598,clicks=1,interval=0.1,button='left')
+    vj.click(x=1320,y=691,clicks=1,interval=0.1,button='left')
+    vj.click(x=1327,y=750,clicks=1,interval=0.1,button='left')
+    vj.click(x=1495,y=840,clicks=1,interval=0.1,button='left')
